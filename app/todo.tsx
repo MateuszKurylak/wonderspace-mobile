@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Home() {
+export default function Todo() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Welcome to WonderSpace</Text>
+      <Text style={styles.text}>Todo Screen</Text>
     </View>
   );
 }
